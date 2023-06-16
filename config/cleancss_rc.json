@@ -35,8 +35,8 @@
         }
     },
     "format": {
-        // Accepted option: "beautify", "keep-breaks" or ""; default: ""
-        "": {
+        // Accepted option: "beautify", "keep-breaks" or "default"; default: "default"
+        "default": {
             "breaks:afterAtRule": false,
             "breaks:afterBlockBegins": false,
             "breaks:afterBlockEnds": false,
