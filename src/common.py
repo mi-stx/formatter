@@ -168,7 +168,7 @@ def expand_path(path):
         variables = sublime.active_window().extract_variables()
         path = sublime.expand_variables(path, variables)
         p = normpath(expanduser(expandvars(path)))
-        log.debug('Expanded path in use: %s', p)
+        log.debug('Normalized path: %s', p)
         return p
     return path
 
